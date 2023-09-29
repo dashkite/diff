@@ -30,7 +30,11 @@ Under heavy active development. Not ready for production use.
 
 - Migrate Presets into their own modules.
 - Allow the Preset functions for Graphene to take a byname.
-- Add tests (currently tested via other modules that rely on it)
+- Add tests (currently tested via other modules that rely on it).
+- Determine relationship to JS diff patch format(s).
+- Support HTTP as preset via `patch` requests.
+- Allow preset shorthand (ex: `fs`) via preset registry.
+- Infer patch function based on target preset?
 
 ## API
 
