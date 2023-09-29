@@ -67,6 +67,7 @@ A function that applies a patch to a source, like the filesystem or S3.
 Given source and target dictionaries, returns an iterator that produces patches.
 
 **diff source, target, patch**
+
 **diff { source, target, patch }** 
 
 Given source and target dictionaries and a patch function, iterates through the patches and invokes the patch function.
