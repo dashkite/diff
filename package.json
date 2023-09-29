@@ -1,0 +1,44 @@
+{
+  "name": "@dashkite/diff",
+  "version": "0.0.0",
+  "description": "Generalized dictionary-based diff",
+  "keywords": [],
+  "homepage": "https://github.com/dashkite/diff#readme",
+  "bugs": {
+    "url": "https://github.com/dashkite/diff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashkite/diff.git"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "Daniel Yoder",
+  "exports": {
+    ".": {
+      "browser": "./build/browser/src/index.js",
+      "node": "./build/node/src/index.js"
+    }
+  },
+  "main": "build/node/src/index.js",
+  "files": [
+    "build/browser/src",
+    "build/node/src"
+  ],
+  "scripts": {
+    "test": "genie test",
+    "build": "genie build"
+  },
+  "devDependencies": {
+    "@dashkite/amen": "^0.2.0",
+    "@dashkite/amen-console": "^0.0.2",
+    "@dashkite/assert": "^0.1.4",
+    "@dashkite/genie": "link:../genie",
+    "@dashkite/genie-coffee": "link:../genie-coffee"
+  },
+  "dependencies": {
+    "@dashkite/dolores": "link:../dolores",
+    "@dashkite/joy": "^0.3.16",
+    "fast-glob": "^3.3.1",
+    "micromatch": "^4.0.5"
+  }
+}
