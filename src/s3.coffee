@@ -11,7 +11,7 @@ S3 =
 
   glob: ({ domain, glob }) ->
     dictionary = {}
-    for { Key } from await listObjects domain when match Key, glob
+    for { Key } from await listObjects domain when match glob, Key
       { content } = await getObject domain, Key
       dictionary[ Key ] = content
     dictionary
