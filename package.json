@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/diff",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Generalized dictionary-based diff",
   "keywords": [],
   "homepage": "https://github.com/dashkite/diff#readme",
